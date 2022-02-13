@@ -1,4 +1,4 @@
-version: 2
+version: 2.1
  
 jobs:
   test:
@@ -12,7 +12,6 @@ jobs:
           command: 'ruby test_sum.rb'
  
 workflows:
-  version: 2
-  workflows:
+  test-workflow:
     jobs:
       - test
